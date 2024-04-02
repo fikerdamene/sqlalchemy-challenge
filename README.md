@@ -9,6 +9,7 @@ This project involves analyzing climate data from Hawaii using Python, SQLAlchem
 Setup Instructions:
 
 To run this project, these steps are followed:
+
 •	Installed Python and necessary libraries (matplotlib, pandas, sqlalchemy).
 
 •	Cloned or downloaded the project repository from GitHub.
@@ -29,21 +30,22 @@ SQLAlchemy
 
 File Structure:
 
-README.md: Documentation for the project.
+- README.md: Documentation for the project.
 
-climate_analysis.py: Python script containing the code for data analysis.
+- climate_analysis.py: Python script containing the code for data analysis.
 
-hawaii.sqlite: SQLite database containing climate data for Hawaii.
+- hawaii.sqlite: SQLite database containing climate data for Hawaii.
 
 Exploratory Analysis:
 
 1. Precipitation Analysis:
+   
 - Retrieved the most recent date in the dataset.
 
 - Query and plotted the precipitation data for the last 12 months.
 
 - Calculated summary statistics for precipitation.
-- 
+  
 2. Station Analysis:
 
 - Calculated the total number of stations.
@@ -75,6 +77,7 @@ Database Setup
 The SQLite database hawaii. sqlite is used to store climate data. SQLAlchemy is used to reflect the database tables and create a session for querying the data.
 
 Flask Routes
+
 1. Home Page
 
 Route: /
